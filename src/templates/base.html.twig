@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+
+
+    </head>
+    <body>
+    <a href="/"><h3>Home</h3></a>
+    <a href="/vendedor"><button>Vendedor</button></a>
+    <a href="/marca"><button>Marca</button></a>
+    <a href="/carro"><button>Carro</button></a>
+
+
+    {% block body %}
+
+
+        {% endblock %}
+        {% block javascripts %}
+
+        {% endblock %}
+    </body>
+</html>
